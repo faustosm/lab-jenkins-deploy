@@ -1,11 +1,15 @@
 ## lab-jenkins-deploy
 Laboratório Jenkins-Deploy
 
-- Criar diretórios jenkis e sonar
+- Criar diretórios jenkins e sonarqube
 - Criar Dockerfile e adicionar aos respectivos diretetórios
 - Criar Docker-compose
 
-Criar Instancia
+Configuração do ambiente
+
+- Crie uma instancia EC2 (AWS)
+
+Acesse usando uma chave
 
 `ssh -i "lab-jenkins.pem" ubuntu@ec2-18-191-98-161.us-east-2.compute.amazonaws.com`
 
