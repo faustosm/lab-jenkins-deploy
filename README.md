@@ -30,3 +30,28 @@ Instalar Docker-compose
 `sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose`
 
 `docker-compose --version`
+
+`docker-compose -f docker-compose.yml up -d --build`
+
+Liste os serviços
+
+`docker ps`
+
+Acesso o Jenkins
+
+Observação: Libere no Security Group as regras de para que você possa acessar sua instância
+
+Exemplo:
+
+http://ec2-18-191-98-161.us-east-2.compute.amazonaws.com:8080/
+
+Acesse o container do Jenkins para pegar a secret
+
+`docker container ls`
+
+`/var/jenkins_home/secrets/initialAdminPassword`
+
+Acesse o arquivo dentro do container
+
+`cat /var/jenkins_home/secrets/initialAdminPassword`
+
