@@ -4,6 +4,7 @@ Laboratório Jenkins-Deploy
 - Criar diretórios jenkins e sonarqube
 - Criar Dockerfile e adicionar aos respectivos diretetórios
 - Criar Docker-compose
+-
 
 Configuração do ambiente
 
