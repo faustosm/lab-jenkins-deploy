@@ -1,4 +1,4 @@
-def CONTAINER_NAME="lab-jenkins-deploy_jenkins"
+def CONTAINER_NAME="pipeline_jenkins"
 def CONTAINER_TAG="latest"
 def DOCKER_HUB_USER="faustosm"
 def HTTP_PORT="8090"
